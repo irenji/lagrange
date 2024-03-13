@@ -82,7 +82,7 @@ AttributeId compute_normal(
  *
  * @param[in]  mesh            The input mesh.
  * @param[in]  is_edge_smooth  Returns true on (fi, fj) if the edge between fi and fj is smooth.
- *                             Assumes fi and fi are adjacent.
+ *                             Assumes fi and fj are adjacent.
  * @param[in]  cone_vertices   A list of cone vertices.
  * @param[in]  options         Optional arguments to control normal generation.
  *
